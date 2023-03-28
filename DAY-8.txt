@@ -1,0 +1,16 @@
+Day-8 
+Variable and Scopes
+
+Variables:
+Containers for storing values.Declared by :Var,const,let keywords
+
+Scope:  
+Visibility of a variable.Types:Global,Function,Block
+
+Scope chain:
+when a variable declared in js,
+If a variable is not found inside inner scope, js engine will find it in the outer scopes & will continue until it finds the value or reaches global scope. 
+
+Variable shadowing:
+When a variable is declared with the same name in the inner and outer scope,then the outer varible will be shadowed by inner scope.
+

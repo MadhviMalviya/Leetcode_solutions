@@ -1,0 +1,29 @@
+How Meteorological Department predicts weather forecast in advance? 
+
+
+The Meteorological Department tells you about upcoming weather changes a few days in advance, but do you know how it calculates it and what is their method.
+
+
+1.Makes forecasts through the direction of the winds and different machines.
+2.The process is done on basis of data collected on different conditions.
+3.High-speed computers, satellites, weather radars play an important role.
+
+
+ With the changing weather conditions, we often get to know in advance how much the temperature will dip in winters or for how many days will it rain. 
+Let us know how does it happen and how the Indian Meteorological Department (IMD) calculates it and what is the method?
+ The department makes forecasts through the direction of the winds and different machines. Now, the Meteorological Department’s forecast has started to be quite accurate and techniques are also being resorted to. People now make plans accordingly after looking at the predictions. So we tell you how the Meteorological Department detects the weather and what techniques are used.
+
+How is the weather forecast?
+According to a report prepared by Gargi College, the change of weather is according to the condition of the wind at a place or time. The process goes on continuously and is quite challenging to predict the weather through these wind conditions.
+
+
+The process is done on the basis of the data collected on different conditions and those data are studied and estimated. Weather forecasting is the analysis of quantitative data of the current situation and its changes.
+
+The situation in which the data is collected includes ground observation, aircraft observation, radio sound, Doppler radar, satellite, etc. The information is then sent to the meteorological centre where the scientists predict the weather of the area based on the data provided.
+
+Estimates are made through data and these maps. The estimate is also made on many grounds, such as if one observation is for a long time, then one is estimated on the same day. For example, sometimes the information about how the monsoon will be in a year has to be taken, so sometimes where will the storm be in the next three hours. Therefore, depending on the time, different forecasts are made by the Meteorological Department.
+
+Which equipment is used?
+High-speed computers, meteorological satellites and weather radars play an important role in weather forecasting. These help to get accurate data and gradually these technologies are improving and as a result, the forecast of the Meteorological Department is becoming accurate.
+
+Simply put, information related to weather and weather data is first obtained for weather forecasting. Along with this, temperature, pressure, humidity etc. are known through the direction of the winds. Along with this, data from Doppler radar is also used in this and then weather forecast is done with data analysis.

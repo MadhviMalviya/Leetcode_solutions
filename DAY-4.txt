@@ -1,0 +1,131 @@
+22:44 09/02/2023 
+
+Day-4
+
+*JAVASCRIPT*
+
+1.DOM-Document Object Model
+
+i. Representation of a web page as a document.
+ii.Dom views an HTML document as a tree of nodes,<html> is viewed as Root node while <body> and <head> as child element.
+
+2.Manipulation of DOM by using JS:
+
+There are three ways to manipulate DOM by using JS:
+I. BY ID
+II.BY CLASS
+III.BY TAGNAME
+
+3.JS , HTML,CSS :
+
+HTML,CSS tell the browser how to display the page , while JS allow user interaction and change the things as per user interaction.
+
+JS:
+i. Js code is placed in head section.
+ii.Js runs in browser and can be disabled.
+iii. JS is object oriented. 
+
+4.Oject:
+
+*Non-Primitive Datatype.
+*Allows us to store multiple attributes having values.
+
+--break--
+
+"DOM:is a medium to enable browser to perform some actions."
+
+"DOM : concept of DOM is for enable user interaction." 
+
+"DOM: Allows us to change the elements in our website."
+
+5.SCRIPT:
+
+<script> can be write anywhere in the page but the best practice is to write it in the <head>.
+
+6.Boileplate
+
+A template we add at the start of our project.Template is repeated in multiple places with little and no variations.
+
+ // document.write methods using writes directly to an open html document stream.
+ // if we have to refer DOM then use 'document'
+ // to refer/call chrome then use window keyword
+
+   
+To print:
+ document.write('Hey!');
+ console.log("everyone") //to print in browser console.
+        
+       
+7. Alert box pop-up:window.alert("This is Alert pop-up.");
+
+8.To Add space: document.write("hey<br>") // for inserting space.
+
+9.Add two numbers: document.write(8 + 2);
+
+10.getlementbyId:use to fetxh data from html element by using its id.
+
+11.innerHTML:allows to write data in any html element,it is often used with getElementByiD.
+
+12.link JS file by "< Script src="URL"> < / script > "
+
+13.Comment:"ctrl+/" single line// or by double line /*
+
+14.Concatenation:Appending one or more strings to the end of another string.
+
+15.Console:Command line interface in browser , allows us to test or experiment with code.
+   
+16.Variables:
+
+   Containers for storing data values.
+   WE can define variable by using var,let,const.
+
+17.Rules & Regulations for naming the variable:
+
+ 1.Variable name contain letters,numbers and ($) symbol.
+ 2.NAME WILL aLWAYS begin with letters and not with numbers. 
+ 3.Case sensitive .
+ 4.Not to use reserved keywords i.e., let,var,document,console,log etc.
+
+//Note:IF WE USE SAME ID again WITH a NEW CONTENT THEN THE NEW CONTENT WILL OVERRIDE THE OLD CONTENT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

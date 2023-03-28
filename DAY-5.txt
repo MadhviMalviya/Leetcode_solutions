@@ -1,0 +1,164 @@
+1.Function
+    Block of code designed to perform a particular task. <br>
+    Rules:
+    1.Js function is defined function with the function  keyword , followed buy the name or parameters an dthen followed by(). 
+    2.function names contains letters,digits ,_,$ symbol. <br>
+    3. The paranthese may include parameteres name seperated by comma(,)   .         
+    4.  The code to be executed by the function is placed inside curly braces {}. 
+
+2.Adding two numbers
+
+    <div id="Fun"></div>
+       <script>
+        function add(a,b) {
+            return a + b;
+        }
+        document.getElementById("Fun").innerHTML = add(5, 3);
+    </script>
+
+op: 8
+   
+    3. Events: 
+    Events are some action or occurance in the system or the browser due to some activities perform by the user or the browser.
+    <!-- Most commonly used events --> 
+    i.Onclick event:
+    when we click it, it calls a function. 
+    <div id="xyz" onclick="tss()"><strong> Content before click</strong></div>
+    <script>
+        function tss() {
+            document.getElementById("xyz").innerHTML = "Content after click ";//onclick content now will be shown up
+        }
+    </script>
+
+    ii.Onmouseover:
+    When the cursor is over an element.
+    <div id="events" onmouseover="eventss()">  <b> Content then </b></div>
+    <script>
+        function eventss() {
+            document.getElementById("events").innerHTML = "Content now";//onmouseover content now will be shown up
+        }
+    </script>
+
+4.Return
+   // Return will send back the value in the line are not executed.
+
+    <div id="addition">Add</div>
+    <script>
+        function addd(a, b) {
+            return a + b;  // statements after this line will not executed.
+            return a * b ; //this line will not get executed.
+        }
+        document.getElementById("addition").innerText = addd(7, 4)
+    </script>
+
+
+5.Query Sector
+it returns the Query htat matches the classs id or tag
+<!-- querySelector() -->
+
+<!-- It returns the FIRST element that matches the class ,id or tagname -->
+
+<h2>querySelector()</h2>
+<p id="A" class="AA" >I AM PARAGRAPH A</p>
+<p id="B" class="BB" >I AM PARAGRAPH B</p>
+<p id="C" class="CC" >I AM PARAGRAPH C</p>
+
+<div  onclick="query()">click me to Change </div>
+ <script>
+function query(){
+document.querySelector("#B").innerHTML="I M changed1";
+document.querySelector(".AA").innerHTML="I M changed2";
+document.querySelector("#C").innerHTML="I M changed3";
+document.querySelector("body").style.backgroundColor="yellow";
+document.querySelector("h2").style.color="blue";
+document.querySelector("h1").style.color="blue";
+
+// to return all querries  USE querySelectorAll
+}
+</script>
+   
+
+PROBLEM STATEMENTS:-
+
+1. We have to write a function which will count the no. of links present.
+
+<h1>3.Counting total links:</h1>
+    <div id="total">Total Links to count</div>
+    <a href="https://google.com.com" name="fb">fb</a><br>
+    <a href="https://twitter.com"   name="tw">tw</a><br>
+    <a href="https://facebook.com"  name="fb">fb</a><br>
+    <script>
+        function countLinks() {
+            var noOfLinks = document.anchors.length;
+            return noOfLinks;
+        }
+        document.getElementById("total").innerHTML = countLinks();
+    </script>
+
+2. <h1>Converting INR to Dollar</h1>
+    <div id="rupee"></div>
+
+    <form>
+        <label for="IndRupee" onclick="coversion1()">Enter Rupee</label>
+        <input type="text"><br><br>
+        <button id="forRs">convert $ to Rs</button>
+        <button id="for&">convert Rs to $</button> <br> <br>
+        <label for="dollar" onclick="coversion2()">Enter Dollar</label>
+        <input type="text">
+    </form>
+<!-- js -->
+    <script>
+        function conversion1() {
+        }
+    </script>
+
+    <br><br><hr>
+    <!-- code by ma'am -->
+    <h1>Converting INR to Dollar</h1>
+    <form>
+        Enter $: <input name="Dollar" type="text"><br><br>
+        <input type="button" name="d2r" value="convert to $" onclick="convertToRs(this.form)">
+        <input type="button" name="r2d" value="convert to rs" onclick="convertTo$(this.form)">
+        <br><br>
+        Enter RS: <input name="Rupee" type="text"><br>
+    </form>
+
+    <!-- js -->
+    <script>
+function convertTo$(form){
+     form.Rupee.value=form.Dollar.value *80
+}
+
+function convertToRs(form){
+    form.Dollar.value=form.Rupee.value /80    
+}
+    </script>
+
+<!-- PS-2 -->
+
+<!-- by using ID -->
+<h1>Change the Input to UpperCase</h1>
+<input id="xyz" name="letter" type="text" onchange="capitals(this)">
+
+<script>
+function capitals() {
+document.getElementById("xyz").value=document.getElementById("xyz").value.toUpperCase()
+}
+</script>
+
+
+
+<!--Another WAy  -->
+<!-- By using this with name we give to an event -->
+<h1>Change the Input to UpperCase</h1>
+<input id="xyz" name="letter" type="text" onchange="capitals(this)">
+
+<script>
+function capitals(yeye) {
+yeye.value=yeye.value.toUpperCase()
+}
+</script>
+
+
+
+    //Need of JS: To manipulate the web pages via user interaction.

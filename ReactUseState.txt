@@ -1,0 +1,22 @@
+import React, { useState } from 'react'
+import logo from './logo.svg'
+import './App.css'
+
+function App() {
+    const [currentValue, newValue] = useState(10)
+
+    function countValue(){
+        newValue(currentValue+10)
+    }
+
+
+	return (
+		<div className="App">
+			<h1>Count the number {currentValue} times </h1>
+            <button  onClick={countValue} >On click value  is changes by {currentValue} times </button>
+
+		</div>
+	)
+}
+
+export default App

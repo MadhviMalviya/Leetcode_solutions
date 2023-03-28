@@ -1,0 +1,17 @@
+//Soumya Rajan Mohanty
+
+
+
+https://stackblitz.com/edit/react-ts-ttxp81?file=App.tsx
+
+to change color by clickikng buttons
+
+
+https://stackblitz.com/edit/react-kwyskj?file=src/App.js 
+  "state lift up"
+
+
+
+https://excalidraw.com/#json=USA43eCAq0YcIO0mzpPmX,pHoFRtKoKiW6dsIJqvTxlA
+"Build a contact Manager"
+
